@@ -1,0 +1,50 @@
+TA-1 Name: - Krishna
+TA-2 Name: - Prasad
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set06
+Question Codewalked: - Q1
+
+Design Grade: - AB
+Presentation Grade: - AB
+
+================
+
+Examples and Tests:
+
+-- 100% test coverage
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- unnecessary use of map inside foldr in function inner-product
+
+-- Hof is not used in function shortlex-less-than?
+
+================
+
+Presentation:
+
+++ student was able to explain difference between map and andpam
+
+++ student was able to explain why andmap not used in permutation-of
+
+++ student was aware and was able to explain why sort is a Hof
+
+-- student was confused while explaining why map is not required in foldr in inner-product
+
+-- student was not able to explain why Hof is not used(good option) in function shortlex-less-than?
+
+-- student was confused while explaining difference between apply and map
+
+================
+
+Other:
+
+================
+
+
+
+

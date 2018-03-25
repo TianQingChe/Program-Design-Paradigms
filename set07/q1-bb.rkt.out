@@ -1,0 +1,101 @@
+--------------------
+q1 > Test #2
+Test #2
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:175:4
+params:     '("x" "x5" "x6" "x7" "y" "z")
+'("x" "x6" "x7" "y")
+actual:     '("x" "x5" "x6" "x7" "y" "z")
+expected:   '("x" "x6" "x7" "y")
+expression: (check-equal? (canonical (undefined-variables BLOCK-1)) (canonical (list "x" "y" "x6" "x7")))
+message:    "undefined-variables fn should return list of undefined\n      variables without duplicate"
+Check failure
+--------------------
+--------------------
+q1 > Test #5
+Test #5
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:223:4
+params:     '("a")
+'("b" "c")
+actual:     '("a")
+expected:   '("b" "c")
+expression: (check-equal? (canonical (undefined-variables (call (block (var "a") (var "b") (var "c")) (list (block (var "c") (lit 17) (var "c")) (block (var "b") (lit 18) (var "b")))))) (canonical (list "b" "c")))
+message:    "undefined-variables fn should return list of undefined\n      variables without duplicate"
+Check failure
+--------------------
+--------------------
+q1 > Test #7
+Test #7
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:258:4
+params:     '("k" "l" "m" "n" "x" "y" "z")
+'("k" "l" "m" "n" "y")
+actual:     '("k" "l" "m" "n" "x" "y" "z")
+expected:   '("k" "l" "m" "n" "y")
+expression: (check-equal? (canonical (undefined-variables BLOCK-2)) (canonical (quote ("k" "l" "m" "n" "y"))))
+message:    "undefined-variables fn should return list of undefined\n      variables without duplicate"
+Check failure
+--------------------
+--------------------
+q1 > Test #11
+Test #11
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:298:4
+params:     '("j" "n")
+'("j" "n" "z")
+actual:     '("j" "n")
+expected:   '("j" "n" "z")
+expression: (check-equal? (canonical (undefined-variables BLOCK-3)) (canonical (list "j" "z" "n")))
+message:    "undefined-variables fn should return a list of undefined variables"
+Check failure
+--------------------
+--------------------
+q1 > Test #13
+Test #13
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:314:4
+params:     '("b" "c" "x" "z")
+'("c" "x" "z")
+actual:     '("b" "c" "x" "z")
+expected:   '("c" "x" "z")
+expression: (check-equal? (canonical (undefined-variables CALL-2)) (canonical (list "x" "z" "c")))
+message:    "undefined-variables fn should return a list of undefined variables"
+Check failure
+--------------------
+--------------------
+q1 > Test #14
+Test #14
+FAILURE
+name:       check-true
+location:   q1-bb.rkt:322:4
+params:     #f
+expression: (check-true (empty? (undefined-variables CALL-3)))
+message:    "undefined-variables fn should return an empty list"
+Check failure
+--------------------
+--------------------
+q1 > Test #15
+Test #15
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:330:4
+params:     '("b" "k" "x")
+'("x")
+actual:     '("b" "k" "x")
+expected:   '("x")
+expression: (check-equal? (canonical (undefined-variables BLOCK-4)) (canonical (list "x")))
+message:    "undefined-variables fn should return a list of undefined variables"
+Check failure
+--------------------
+8 success(es) 7 failure(s) 0 error(s) 15 test(s) run
+extras.rkt Wed Sep 14 08:52:19 2016
+q1.rkt appears to be in a correctly named folder. Running tests...
+Running tests from q1.rkt...
+All tests passed (23 tests).
+7

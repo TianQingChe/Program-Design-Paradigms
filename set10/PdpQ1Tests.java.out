@@ -1,0 +1,20 @@
+Running test: initial availability... PASS
+Running test: changeContractStatus... PASS
+Running test: changeContractStatus... PASS
+Running test: changeInjuryStatus... PASS
+Running test: changeInjuryStatus and changeContractStatus... PASS
+Running test: changeInjuryStatus and changeSuspendedStatus... PASS
+Running test: changeSuspendedStatus... PASS
+Running test: changeContractStatus and changeSuspendedStatus... PASS
+Running test: one player, one name... PASS
+Running test: two players, two names... PASS
+Running test: true equals... PASS
+Running test: two players with same name are not equal... PASS
+Running test: two players with diff name are not equal... PASS
+Running test: player does not equal null... PASS
+Running test: player does not equal non-player... PASS
+Running test: hashCode and contract status... PASS
+Running test: hashCode and injury status... PASS
+Running test: hashCode and suspended status... PASS
+Running test: toString... PASS
+19 success(es) 0 failure(s) 0 error(s) 19 test(s) run

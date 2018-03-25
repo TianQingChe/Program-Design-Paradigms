@@ -1,0 +1,40 @@
+Running test: empty rosters are equal... PASS
+Running test: empty roster does not equal null... PASS
+Running test: nonempty roster does not equal null... PASS
+Running test: empty roster does not equal System.class... PASS
+Running test: nonempty roster does not equal System.class... PASS
+Running test: equals, same order, immutability... PASS
+Running test: equals, different order... PASS
+Running test: unequal rosters... PASS
+Running test: unequal rosters, one empty... PASS
+Running test: readyCount with redundant addition... PASS
+Running test: readyCount after status change... PASS
+Running test: equals and readyCount after status change... PASS
+Running test: readyRoster equals partial roster... PASS
+Running test: readyRosters are equal... PASS
+Running test: hashCode, empty rosters... FAIL
+  actual:   false
+  expected: true
+Running test: hashCode, different order... FAIL
+  actual:   false
+  expected: true
+Running test: hashCode, redundant addition... FAIL
+  actual:   false
+  expected: true
+Running test: hashCode, immutability... PASS
+Running test: hashCode unaffected by player state... PASS
+Running test: toString(), one empty... PASS
+Running test: toString(), two nonempty... PASS
+Running test: set size, immutability... PASS
+Running test: without()... PASS
+Running test: nonempty roster without missing player... PASS
+Running test: empty roster without missing player... PASS
+Running test: without, immutability... PASS
+Running test: has()... PASS
+Running test: empty roster has nothing... PASS
+Running test: iterator over one player... PASS
+Running test: iterator over multiple players... PASS
+Running test: iterator with same name... PASS
+Running test: iterator and size for empty... PASS
+Running test: iterator, immutability... PASS
+30 success(es) 3 failure(s) 0 error(s) 33 test(s) run

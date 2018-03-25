@@ -1,0 +1,57 @@
+TA-1 Name: - Rahul Verma
+TA-2 Name: - Harshit Vora
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set02
+Question Codewalked: -Q1,Q2
+
+Design Grade: - A
+Presentation Grade: - A
+
+INSTRUCTIONS TO TAs: Delete items that do not apply.  For items that apply,
+indicate which data definitions/functions have the indicated problem.
+
+================
+
+Examples and Tests:
+
+- did not test all cases in Q1
+
+================
+
+Data Design:
+
+-- missing/incomplete interpretation. "blank" is not self evident
+
+constants should be capital
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- misleading/uninformative design strategy. 
+missing strategy for initial-state
+next-timer: divide into cases on what
+
+-- Spaghetti code.
+cluttered code, spacing between function definition and tests for better readability
+
+================
+
+Presentation:
+
+-- student speaks too softly to be heard
+
+================
+
+Other:
+
+try not to exceed 80 character limit
+missing error statements for tests
+
+================
+
+
+
+

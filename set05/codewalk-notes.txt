@@ -1,0 +1,37 @@
+TA-1 Name: - Charmik
+TA-2 Name: - Vinay
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set05
+Question Codewalked: - 2
+
+Design Grade: - C
+Presentation Grade: - AB
+
+
+================
+
+Data Design:
+
+-- Operation not respresented properly
+-- OperandList Datatype incorrect.
+-- in Call, operator should be Arithmetic Expression
+-- Incomplete data types missing templates, interpretation etc.
+
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- design recepie not followed for most functions.
+
+================
+
+Presentation:
+
+-- student should be loud and clear while presenting
+
+
+
+

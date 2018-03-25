@@ -1,0 +1,68 @@
+TA-1 Name: - Amit	
+TA-2 Name: - Sarita
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set03
+Question Codewalked: - 2
+
+Design Grade: - B
+Presentation Grade: - B
+================
+
+Examples and Tests:
+
+--  100% test coverage achieved. However these many test cases were not able to find the problem with the submission.
+
+================
+
+Data Design:
+
+-- Design choice can be improved. The Student during code walk could suggest that the design could have been fairly improvised
+
+-- missing/incomplete interpretation.  
+— Mistakes in the data design for World. Why we need Mouse in the World? 
+- Why we have to store both x, y and dx and dy
+- How did you represent the location of the mouse in your data definition? Is the location absolute or relative (relative to what?)- Not clear
+- In World,  Nonnegative-Integer what does this data type imply? 
+-- missing/incomplete/wrong invariants in data definitions
+x, y: Real the position of the center of the ball in 
+;;               the scene How can it be Real?
+
+-- missing/incorrect templates. 
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- missing/incorrect contracts. Contract violation, racket-after-mouseevent is accepting a World rather Racket
+
+— ball-after-tick:Racket Ball World-rally? World-tick-number-> Ball: What are you trying to do? Incorrect contract and DataTypes
+
+path-x-at-racket-vy : Racket-vy Ball -> Real. What do you mean by the data type Racket-vy? Incorrect contract. Kindly refer slides.
+
+-- missing/incomplete/misleading purpose statements. Multiple instances, incomplete purpose statement with wrong contracts
+
+-- purpose statement does not mention one of the arguments. Should have meaningful purpose  statements
+
+================
+
+Presentation:
+
+-- student has difficulty understanding questions that are asked
+
+-- student has difficulty answering questions
+
+
+================
+
+Other:
+
+Suggestion: Error messages in the test cases. Understand the purpose of testing your own code. Program review is MUST
+
+Use helper functions wherever appropriate
+================
+
+
+
+

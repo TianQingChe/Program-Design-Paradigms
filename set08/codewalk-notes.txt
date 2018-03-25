@@ -1,0 +1,44 @@
+TA-1 Name: - Amit
+TA-2 Name: - Charmik
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set08
+Question Codewalked: - Q1
+
+Q1 Design Grade: - A
+Q1 Presentation Grade: - A
+
+Q2 Design Grade: - 
+Q2 Presentation Grade: -
+
+
+================
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+--- add-indirect-outranks: rl and il. Should use better variable names.
+
+--- Should keep lambda expressions small. Need to break down for large lambda expressions.
+
+--- Good use of invariants.
+
+--- Gave good halting measures.
+================
+
+Presentation:
+
+--- Could explain the halting measure.
+
+================
+
+Other:
+
+
+================
+
+
+
+

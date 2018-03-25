@@ -1,0 +1,42 @@
+TA-1 Name: - Prasad
+TA-2 Name: - Amit
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set07
+Question Codewalked: -
+
+Design Grade: - AB, B
+Presentation Grade: - B
+
+================
+
+Examples and Tests:
+
+--
+
+================
+
+Data Design:
+
+-- Creating struct for op0, op1, error, int was not necessary.
+
+================
+
+Contract/Purpose Statement/Design Strategy:
+
+-- in q1, undefined-variables is clearly lacking thinking of how it is going to get all undefined variables.
+
+-- call-int? doesn't need to check if given ArithmaticExpression is call.
+
+================
+
+Presentation:
+
+-- student shows lack of understanding of his/her submission.
+
+-- student has difficulty answering questions.
+
+-- student did not understand question when asked about defining struct for op0, op1,int, error and avoided answering the same.
+
+================

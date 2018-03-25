@@ -1,0 +1,34 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-intermediate-reader.ss" "lang")((modname q2) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+;; q2.rkt: Converts a length in furlongs to the number of barleycorns in that length.
+
+(require rackunit)
+(require "extras.rkt")
+(check-location "01" "q2.rkt")
+
+(provide furlongs-to-barleycorns)
+
+;; A FurLength is represented as a Real.
+;; A BarLength is represented as a Real.
+
+;; furlongs-to-barleycorns: FurLength -> BarLength
+;; GIVEN: a length in furlongs.
+;; RETURNS: the equivalent length in barleycorns.
+;; EXAMPLES:
+;; (furlongs-to-barleycorns 5) = 118800
+;; (furlongs-to-barleycorns 0.2) = 4752
+;; DESIGN STRATEGY: Using the length relation between furlong and barleycorn.
+
+
+(define (furlongs-to-barleycorns fur-length)
+  (* fur-length 10 4 16.5 12 3)
+  )
+
+;;TESTS
+(begin-for-test
+  (check-equal? (furlongs-to-barleycorns 5) 118800
+     "5 furlongs should be 118800 barleycorns")
+  (check-equal? (furlongs-to-barleycorns 0.2) 4752
+     "0.2 furlongs should be 4752 barleycorns")
+  )

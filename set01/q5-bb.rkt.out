@@ -1,0 +1,5 @@
+Gtk initialization failed for display ":0"
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/gui-lib/mred/private/wx/gtk/queue.rkt: [running body]
+   /proj/racket/plt-released/recent/share/pkgs/gui-lib/mred/private/wx/gtk/init.rkt: [traversing imports]
+   /proj/racket/plt-released/recent/share/pkgs/gui-lib/mred/private/mred.rkt: [traversing imports]

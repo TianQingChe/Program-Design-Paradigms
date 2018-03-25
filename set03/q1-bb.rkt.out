@@ -1,0 +1,28 @@
+--------------------
+q1 > Test #17
+
+name:        check-equal?
+location:    q1-bb.rkt:173:4
+expression:  (check-equal? (racket-vy (world-racket (world-after-n-ticks WORLD-RACKET-WITH-6SPEED-63TICK 1))) 0 "racket's velocity vy should be 0 after 64 ticks as collision takes place")
+params:      '(-6 0)
+message:     "racket's velocity vy should be 0 after 64 ticks as collision takes place"
+actual:      -6
+expected:    0
+--------------------
+--------------------
+q1 > Test #18
+
+name:        check-equal?
+location:    q1-bb.rkt:180:4
+expression:  (check-equal? (ball-vy (world-ball (world-after-n-ticks WORLD-RACKET-WITH-6SPEED-63TICK 2))) -15 "ball's velocity in vy should be -15 after 65 ticks")
+params:      '(9 -15)
+message:     "ball's velocity in vy should be -15 after 65 ticks"
+actual:      9
+expected:    -15
+--------------------
+19 success(es) 2 failure(s) 0 error(s) 21 test(s) run
+extras.rkt Wed Sep 14 08:52:19 2016
+q1.rkt appears to be in a correctly named folder. Running tests...
+Running tests from q1.rkt...
+All tests passed (61 tests).
+2

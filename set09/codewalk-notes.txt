@@ -1,0 +1,31 @@
+TA-1 Name: - Rohan
+TA-2 Name: - Aashish
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set09
+Question Codewalked: - Q1
+
+Q1 Design Grade: - AB
+Q1 Presentation Grade: - A
+
+Q2 Design Grade: - 
+Q2 Presentation Grade: -
+
+================
+
+Interfaces, Objects, and Classes
+
+--  method missing examples 
+
+
+================
+
+Other:
+--no need for comparator in outrankedby as sort method will do natural ordering.
+
+================
+
+
+
+

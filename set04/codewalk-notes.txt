@@ -1,0 +1,24 @@
+TA-1 Name: - Virinchi Pariwal
+TA-2 Name: - Krishna Vikas
+
+Student CCIS ID: tianqingche
+
+Problem Set #: set04
+Question Codewalked: - q2
+
+Design Grade: - A
+Presentation Grade: - A
+
+Notes:
+====================================
+- Design strategies and examples missing for few functions eg:  world-end-pause?
+- could use better names for arguments
+
+
+Presentation:
+===========================================
+-- student speaks too softly to be heard (Reported throat infection)
+
+
+
+

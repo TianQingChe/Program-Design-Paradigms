@@ -1,0 +1,10 @@
+world-racket: expects a world, given (make-racket 0 0 330 384 #false)
+  context...:
+   /usr/share/racket/pkgs/htdp-lib/lang/private/teach.rkt:962:53: world-racket
+   /home/justin/src/CODECUT/set03/pdp-tianqingche/set03/q2.rkt:1363:0: around-racket?
+   /home/justin/src/CODECUT/set03/pdp-tianqingche/set03/q2.rkt:1325:0: racket-after-mouse-event
+   /home/justin/src/CODECUT/set03/pdp-tianqingche/set03/q2-bb.rkt: [running body]
+extras.rkt Wed Sep 14 08:52:19 2016
+q2.rkt appears to be in a correctly named folder. Running tests...
+Running tests from q2.rkt...
+All tests passed (72 tests).

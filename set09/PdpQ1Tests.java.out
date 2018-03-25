@@ -1,0 +1,16 @@
+Running test: a Tie1 is a tie... PASS
+Running test: Tie1 - first/second 1... PASS
+Running test: Tie1 - first/second 2... PASS
+Running test: a Defeat1 is not a tie... PASS
+Running test: Defeat1 - first/second 1... PASS
+Running test: Defeat1 - first/second 2... PASS
+Running test: Defeat1 - winner... PASS
+Running test: Defeat1 - loser... PASS
+Running test: defeating via tie 1... PASS
+Running test: defeating via tie 2... PASS
+Running test: no outcomes means no defeats... PASS
+Running test: no mentions means no defeats... PASS
+Running test: no such defeat... PASS
+Running test: defeat is not transitive 1... PASS
+Running test: defeat is not transitive 2... PASS
+15 success(es) 0 failure(s) 0 error(s) 15 test(s) run
